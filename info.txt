@@ -1,0 +1,13 @@
+- vagrant up;
+- ssh vagrant@127.0.0.1 -p 1111
+
+- pgAdmin
+    http://127.0.0.1:5050
+        admin@i.ua
+        admin
+    add new Server
+        10.11.10.1
+        5432
+        mydatabase
+        myuser
+        mypassword
