@@ -1,5 +1,6 @@
 - vagrant up;
 - ssh vagrant@127.0.0.1 -p 1111
+- docker-compose up -d && docker-compose logs -f nodejs
 
 - pgAdmin
     http://127.0.0.1:5050
