@@ -12,3 +12,6 @@
         mydatabase
         myuser
         mypassword
+
+- create table
+    docker exec -it postgres_container sh -c "chmod +x /db/setup.sh && /db/setup.sh"

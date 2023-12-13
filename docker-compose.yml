@@ -10,6 +10,11 @@ services:
             POSTGRES_DB: mydatabase
             POSTGRES_USER: myuser
             POSTGRES_PASSWORD: mypassword
+        working_dir: /db
+        volumes:
+            - type: bind
+              source: ./app/db
+              target: /db
 
     nodejs:
         image: node:20-alpine
